@@ -1,8 +1,27 @@
 aid: novus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novus.png
 name: Novus
-description: 'Novus is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Novus (operating as SEI Novus) is a portfolio intelligence and investment
+  analytics platform for institutional investors — endowments, foundations, sovereign
+  wealth funds, family offices, pension funds, and asset managers. The platform provides
+  manager monitoring, performance analysis, risk assessment, attribution, and reporting
+  across public and private markets at the position, fund, and portfolio level, along
+  with data integration and maintenance services. Originally venture-backed (Index
+  Ventures among its investors), Novus was acquired by SEI and now operates as SEI
+  Novus. It has been recognized as Best Portfolio Management Vendor (Family Wealth
+  Report Awards) and Best Multi-Asset Class Portfolio Management System (PAM Awards).
+  No public developer API is currently published on its website.'
 url: https://raw.githubusercontent.com/api-evangelist/novus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- WealthTech
+- Portfolio Analytics
+- Investment Management
+- Portfolio Intelligence
+- Institutional Investors
+- SEI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://novus.com
+  url: https://novus.com
+- type: Blog
+  url: https://novus.com/blog
+- type: Login
+  url: https://alpha.novus.com/login/
+- type: TermsOfService
+  url: https://www.seic.com/terms-use
+- type: PrivacyPolicy
+  url: https://www.seic.com/privacy-notice
+- type: DomainSecurity
+  url: security/novus-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
