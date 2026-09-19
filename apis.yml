@@ -23,16 +23,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novus.png
 name: Novus
-description: 'Novus (operating as SEI Novus) is a portfolio intelligence and investment
-  analytics platform for institutional investors — endowments, foundations, sovereign
-  wealth funds, family offices, pension funds, and asset managers. The platform provides
-  manager monitoring, performance analysis, risk assessment, attribution, and reporting
-  across public and private markets at the position, fund, and portfolio level, along
-  with data integration and maintenance services. Originally venture-backed (Index
-  Ventures among its investors), Novus was acquired by SEI and now operates as SEI
-  Novus. It has been recognized as Best Portfolio Management Vendor (Family Wealth
-  Report Awards) and Best Multi-Asset Class Portfolio Management System (PAM Awards).
-  No public developer API is currently published on its website.'
+description: Novus (operating as SEI Novus) is a portfolio intelligence and investment analytics platform for institutional
+  investors — endowments, foundations, sovereign wealth funds, family offices, pension funds, and asset managers.
+  The platform provides manager monitoring, performance analysis, risk assessment, attribution, and reporting across
+  public and private markets at the position, fund, and portfolio level, along with data integration and maintenance
+  services. Originally venture-backed (Index Ventures among its investors), Novus was acquired by SEI and now operates
+  as SEI Novus. It has been recognized as Best Portfolio Management Vendor (Family Wealth Report Awards) and Best
+  Multi-Asset Class Portfolio Management System (PAM Awards). No public developer API is currently published on
+  its website.
 url: https://raw.githubusercontent.com/api-evangelist/novus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -63,7 +61,8 @@ common:
   url: https://apis.io/providers/sei/
   name: SEI
   x-relationship: acquired
-  x-evidence: "Originally venture-backed (Index Ventures among its investors), Novus was acquired by SEI and now operates as SEI Novus."
+  x-evidence: Originally venture-backed (Index Ventures among its investors), Novus was acquired by SEI and now
+    operates as SEI Novus.
 - type: Website
   url: https://novus.com
 - type: Blog
@@ -76,6 +75,8 @@ common:
   url: https://www.seic.com/privacy-notice
 - type: DomainSecurity
   url: security/novus-domain-security.yml
+- type: Website
+  url: https://www.novus.com/
 x-enrichment:
   date: '2026-07-20'
   status: minimal
