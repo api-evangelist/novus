@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: novus.com
   final_host: www.novus.com
-  ownership: inherited
+  ownership: own
   owner: novus
   shares_host_with: null
-  inherited_from: www.novus.com
+  inherited_from: null
+  alias_of: www.novus.com
   verdict: silent
-  score: null
+  score: 0
+  band: 1
+  band_label: silent
   host_score: 0
-  density: null
+  density: 0.0
   words: 754
   tiers:
     agentic: 0
